@@ -1,8 +1,0 @@
-{
-    "workbench.editorAssociations": {
-        "**/rulesets/**/ruleset.yaml": "default",
-        "**/rulesets/**/ruleset.yml": "default",
-        "**/rulesets/**/*.yaml": "datadog.staticAnalysis.editor.ruleEditor",
-        "**/rulesets/**/*.yml": "datadog.staticAnalysis.editor.ruleEditor"
-    }
-}
