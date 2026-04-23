@@ -1,4 +1,4 @@
-name: no-debugger
+name: no-debugger2
 short_description: Disallow the use of debugger
 description: |-
   The `debugger` statement pauses execution and opens the browser debugger. It should
