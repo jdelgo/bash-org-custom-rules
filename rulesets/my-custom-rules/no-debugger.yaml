@@ -7,7 +7,7 @@ description: |-
 category: BEST_PRACTICES
 severity: ERROR
 language: JAVASCRIPT
-checksum: 7329459e9a538c29dceace92528d61fec64d0882e5412eb16937932311a70fbf
+checksum: 5a8336651df5e18e67daf6cdbbe7fb7e14dbf6f3fedf0cc694da2c834836bc4f
 arguments: []
 tree_sitter_query: (debugger_statement) @stmt
 code: |-
@@ -17,7 +17,7 @@ code: |-
     addError(buildError(
       stmt.start.line, stmt.start.col,
       stmt.end.line, stmt.end.col,
-      "Remove debugger statement before committing to production.",
+      "Remove debugger statement before committing to production. This is a change for the demo",
       "ERROR",
       "BEST_PRACTICES"
     ));
